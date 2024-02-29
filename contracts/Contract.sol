@@ -27,7 +27,7 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 import "@openzeppelin/contracts/utils/Strings.sol";
-import "operator-filter-registry-1.3.1/src/DefaultOperatorFilterer.sol";
+import "./operator-filter-registry-1.3.1/src/DefaultOperatorFilterer.sol";
 import "./lib/auctions/DutchAuctionHouse.sol";
 import "./lib/auctions/EnglishAuctionHouse.sol";
 import "./lib/MerkleFourParams.sol";
